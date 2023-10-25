@@ -1,0 +1,121 @@
+.card_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card_style {
+  display: flex;
+  list-style: none;
+  border: 0.1rem solid var(--border-color);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: 22rem;
+  text-align: center;
+  box-shadow: 2px 2px 5px var(--border-color);
+}
+
+.text_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+}
+
+.text {
+  padding: 0;
+  margin: 0;
+}
+
+.img_container {
+  margin-right: 10rem;
+}
+
+.img_alive {
+  position: relative;
+  border: 0.2rem solid var(--alive-color);
+  border-radius: 1rem;
+  width: 4rem;
+  height: 4rem;
+  box-shadow: 2px 2px 5px var(--alive-color);
+}
+
+.img_dead {
+  position: relative;
+  border: 0.2rem solid var(--dead-color);
+  border-radius: 1rem;
+  width: 4rem;
+  height: 4rem;
+  box-shadow: 2px 2px 5px var(--dead-color);
+}
+
+.img_unknown {
+  position: relative;
+  border: 0.2rem solid var(--unknown-color);
+  border-radius: 1rem;
+  width: 4rem;
+  height: 4rem;
+  box-shadow: 2px 2px 5px var(--unknown-color);
+}
+
+.btn_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+}
+
+.btn_styles {
+  background-color: var(--favorite-color);
+  color: var(--text-color);
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.btn_styles:hover {
+  background-color: var(--favorite-hover-color);
+}
+
+.alive {
+  position: relative;
+  width: 3rem;
+  border: 0.2rem solid var(--text-color);
+  border-radius: 2rem;
+  right: 7rem;
+  padding: 0;
+  margin: 0;
+  color: var(--text-color);
+  background-color: var(--alive-color);
+  box-shadow: 2px 2px 5px var(--alive-color);
+}
+
+.unknown {
+  position: relative;
+  width: 5rem;
+  border: 0.2rem solid var(--text-color);
+  border-radius: 2rem;
+  right: 6rem;
+  padding: 0;
+  margin: 0;
+  color: var(--text-color);
+  background-color: var(--unknown-color);
+  box-shadow: 2px 2px 5px var(--unknown-color);
+}
+
+.dead {
+  position: relative;
+  width: 3.3rem;
+  border: 0.2rem solid var(--text-color);
+  border-radius: 2rem;
+  right: 7rem;
+  padding: 0;
+  margin: 0;
+  color: var(--text-color);
+  background-color: var(--dead-color);
+  box-shadow: 2px 2px 5px var(--dead-color);
+}

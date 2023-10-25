@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --text-color: #f1fcfb;
+  --alive-color: #4ade4f;
+  --dead-color: #aa0a1c;
+  --unknown-color: #464646;
+  --border-color: #bdbdbd;
+  --favorite-color: #36cbc8;
+  --favorite-hover-color: #15575a;
+}
+
+
+body {
+  margin: 0;
+  padding: 0.5rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
